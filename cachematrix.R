@@ -1,9 +1,8 @@
-##  The two functions below are written to cache the inverse of an invertible matrix. .Put comments here that give an overall description of what your
-## functions do
+##  The two functions below are written to cache the inverse of an invertible square matrix.
 
 ## The function "makeCacheMatrix" creates a special "matrix" object that can cache its inverse.
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) { 
     m <- NULL
     set <- function(y) { ##It sets the value of the matrix x
       x <<- y
